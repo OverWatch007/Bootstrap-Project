@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> Home</title>
+    
+    <style type="text/css">
+
+    	#notifications {
+        margin-left: 8px;
+  		}
+
+  		#slides {
+
+  			width: 60%;
+  			margin: auto;
+
+
+
+  		}
+  		.carousel-inner img {
+  			margin: auto;
+		}
+		
+		body {
+        position: relative;
+        background-color: #3393FF ;
+  		}
+  		#logo {
+        float: left;
+        padding-right: 30px;
+      }
+
+      #cards {
+        
+        margin: auto;
+        width:80%;
+        margin-top: 30px;
+      }
+      #intro {
+
+        margin: 20px;
+      }
+      #bottom {
+        text-align: center;
+        margin-top: 50px;
+        background-color: #2C3E50;
+        width: 100%;
+        color: white;
+        padding-left: 50px;
+      }
+      
+
+    </style>
+      
+  </head>
+  <body>
+    <div id="topbar">
+  <nav id="topbar" class="navbar navbar-expand-lg navbar-light bg-light">
+  <img id="logo" src="reward.png">
+  <a class="navbar-brand" href="#"><strong>Wide Reach</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Rewards.html">Rewards</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Leaderboard.html">Leaderboard <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">News</a>
+          <a class="dropdown-item" href="#">Contact Us</a>
+          <a class="dropdown-item" href="#">About Us</a>
+        </div>
+      </li>
+      
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <button type="button" class="btn btn-primary" id="notifications">
+  Notifications <span class="badge badge-light">4</span>
+</button>
+  </div>
+</nav>
+</div>
+
+<div id="slides">
+
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="2550">
+        <img src="clean drive.png" class="d-block w-100" alt="people cleaning">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Clean Drive in Paschim Vihar</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-interval="2550">
+        <img src="awareness rally.png" class="d-block w-100" alt="students in a rally">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Awareness Rally about voting rights</h5>
+
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2550">
+        <img src="photography.png" class="d-block w-100" alt="people with cameras">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Photography camp in Boston</h5>
+          
+        </div>
+      </div>
+
+      <div class="carousel-item" data-interval="2550">
+        <img src="tech lab.png" class="d-block w-100" alt="people posing in a group">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Software development camp</h5>
+          
+        </div>
+      </div>
+
+      <div class="carousel-item" data-interval="1550">
+        <img src="old home.png" class="d-block w-100" alt="young students meeting old people">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Visit to old age home</h5>
+          
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</div>
+
+<div id="intro">
+  
+  <div class="jumbotron">
+  <h1 class="display-4 text-success">What we do?</h1>
+  <p class="lead">We are an open source for tasks. People upload tasks, other people complete them and in turn they get rewards!!</p>
+  <hr class="my-4">
+  <p>We bring people together and move the society forward. So, come on, be a par of it!</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+</div>
+<div id="cards">
+
+<div class="card-columns" id="card-1">
+  <div class="card">
+    <img src="man-1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mark Smith</h5>
+      <p class="card-text">Completed 45 tasks<br>Humanist<br>Philanthropist<br>Won goodies worth 40K dollars</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>"All human actions have one or more of these seven causes: chance, nature, compulsions, habit, reason, passion, desire."</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          <cite title="Source Title">Aristotle</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="woman1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bella Grace</h5>
+      <p class="card-text">Completed 30 tasks<br>Businesswoman<br>Home maker<br>Won goodies worth 25k dollars</p>
+      <p class="card-text"><small class="text-muted">Last updated 19 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>"The greatest glory in living lies not in never falling, but in rising every time we fall."</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+         <cite title="Source Title">Nelson Mandela</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="woman-2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sunita Sharma</h5>
+      <p class="card-text">Completed 50 tasks<br>Teacher<br>Home maker<br>Won goodies worth 65k dollars</p>
+      <p class="card-text"><small class="text-muted">Last updated 19 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking."</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+         <cite title="Source Title">Steve Jobs</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card" >
+    <img src="man-2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">John Haymond</h5>
+      <p class="card-text">Completed 63 tasks<br>Activist<br>Athlete<br>Won goodies worth 95k dollars</p>
+      <p class="card-text"><small class="text-muted">Last updated 76 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="man-3.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Edwards Buttons</h5>
+      <p class="card-text">Completed 35 tasks<br>Businessman<br>Writer<br>Won goodies worth 40k dollars</p>
+      <p class="card-text"><small class="text-muted">Last updated 35 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>"Spread love everywhere you go. Let no one ever come to you without leaving happier."</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          <cite title="Source Title">Mother Teresa</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+
+
+</div>
+</div>
+
+<div id="bottom">
+  
+  <h2>Wide Reach™</h2>
+
+   <h4>Wide Reach © 2016-19</h4>
+
+    <h6><a>Privacy Policy</a> | <a>Terms and Conditions</a></h6>
+
+</div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
